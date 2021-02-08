@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "diplom1", "diplom1\diplom1.vcxproj", "{1ECF2581-8334-4304-87D5-1CB0AE02C0DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ECF2581-8334-4304-87D5-1CB0AE02C0DB}.Debug|x64.ActiveCfg = Debug|x64
+		{1ECF2581-8334-4304-87D5-1CB0AE02C0DB}.Debug|x64.Build.0 = Debug|x64
+		{1ECF2581-8334-4304-87D5-1CB0AE02C0DB}.Release|x64.ActiveCfg = Release|x64
+		{1ECF2581-8334-4304-87D5-1CB0AE02C0DB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC5987C3-5682-470F-9A45-33F77189993F}
+	EndGlobalSection
+EndGlobal
