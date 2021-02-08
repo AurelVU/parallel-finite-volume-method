@@ -1,7 +1,7 @@
-mypwn/build
-mypwn/lib2python
-mypwn/src
+CppAndPython/build
+CppAndPython/lib2python
+CppAndPython/src
 mypwn/*.pyd
-mypwn/venv
+CppAndPython/venv
 .idea
 
