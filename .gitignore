@@ -1,0 +1,7 @@
+mypwn/build
+mypwn/lib2python
+mypwn/src
+mypwn/*.pyd
+mypwn/venv
+.idea
+
