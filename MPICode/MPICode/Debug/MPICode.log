@@ -1,0 +1,4 @@
+﻿  MPICode.cpp
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\MPICode\MPICode\MPICode.cpp(55,20): warning C4101: cflaxC: неиспользованная локальная переменная
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\MPICode\MPICode\MPICode.cpp(99,15): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  MPICode.vcxproj -> C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\MPICode\Debug\MPICode.exe

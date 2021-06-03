@@ -1,0 +1,10 @@
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(505,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (OpenCLSolver2.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  host.cpp
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\Utils\utils.h(5,10): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\OpenCLSolver\host.cpp(87,1): warning C4273: opencl_solver: несовместимое связывание dll
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\OpenCLSolver\OpenCLSolver.h(10,32): message : см. предыдущее определение "opencl_solver"
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\OpenCLSolver\host.cpp(238,1): warning C4273: isSupportedOpenCL: несовместимое связывание dll
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\OpenCLSolver\OpenCLSolver.h(11,29): message : см. предыдущее определение "isSupportedOpenCL"
+     Создается библиотека ..\x64\Debug\OpenCLSolver.lib и объект ..\x64\Debug\OpenCLSolver.exp
+  OpenCLSolver.vcxproj -> C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\x64\Debug\OpenCLSolver.dll

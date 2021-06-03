@@ -166,32 +166,37 @@ double** run_phis2(double** T, int n, int m)
 
 int main()
 {
-    int n = 210;
-    int m = 210;
-    std::vector<std::vector<double>> T;
-    for (int i = 0; i < n; i++)
-    {
-        std::vector<double> a;
-        T.push_back(a);
-    }
-
-    for (int i = 0; i < n; i++)
-        for (int j = 0; j < m; j++)
-            T[i].push_back(0);
-
-    clock_t start = clock();
-    for (int i = 0; i < 500; i++)
-        T = run_phis(T, n, m);
-    clock_t end = clock();
-    double seconds = (double)(end - start) / CLOCKS_PER_SEC;
-    
-	
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < m; j++)
+    for (int bifFuckingN = 50; bifFuckingN < 10000; bifFuckingN += 25) {
+        // int n = 210;
+        // int m = 210;
+        int n = bifFuckingN;
+        int m = bifFuckingN;
+        std::vector<std::vector<double>> T;
+        for (int i = 0; i < n; i++)
         {
-            printf("%0.2f ", T[i][j]);
+            std::vector<double> a;
+            T.push_back(a);
         }
-        printf("\n");
+
+        for (int i = 0; i < n; i++)
+            for (int j = 0; j < m; j++)
+                T[i].push_back(0);
+
+        clock_t start = clock();
+        for (int i = 0; i < 500; i++)
+            T = run_phis(T, n, m);
+        clock_t end = clock();
+        double seconds = (double)(end - start) / CLOCKS_PER_SEC;
+
+        /*
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++)
+            {
+                printf("%0.2f ", T[i][j]);
+            }
+            printf("\n");
+        }*/
+        //printf("The time: %f seconds\n", seconds);
+        printf("%f,", seconds);
     }
-    printf("The time: %f seconds\n", seconds);
 }

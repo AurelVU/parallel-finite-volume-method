@@ -46,32 +46,36 @@ __global__ void solverKernel(float* T, float* T_new, int n, int m, float h, floa
 
 int main()
 {
-    int n = 210;
-    int m = 210;
-    float** T = new float*[n];
-    for (int i = 0; i < n; i++)
-    {
-        T[i] = new float[m];
-        for (int j = 0; j < m; j++)
-            T[i][j] = 0;
-    }
+    for (int bifFuckingN = 50; bifFuckingN < 10000; bifFuckingN += 25) {
+        // int n = 210;
+        // int m = 210;
+        int n = bifFuckingN;
+        int m = bifFuckingN;
+        float** T = new float* [n];
+        for (int i = 0; i < n; i++)
+        {
+            T[i] = new float[m];
+            for (int j = 0; j < m; j++)
+                T[i][j] = 0;
+        }
 
-    clock_t start = clock();
-    cudaError_t cudaStatus = solver(T, n, m);
-    clock_t end = clock();
-    double seconds = (double)(end - start) / CLOCKS_PER_SEC;
-    printf("The time: %f seconds\n", seconds);
-    if (cudaStatus != cudaSuccess) {
-        fprintf(stderr, "addWithCuda failed!");
-        return 1;
-    }
+        clock_t start = clock();
+        cudaError_t cudaStatus = solver(T, n, m);
+        clock_t end = clock();
+        double seconds = (double)(end - start) / CLOCKS_PER_SEC;
+        //printf("The time: %f seconds\n", seconds);
+        printf("%f, ", seconds);
+        if (cudaStatus != cudaSuccess) {
+            fprintf(stderr, "addWithCuda failed!");
+            return 1;
+        }
 
-    cudaStatus = cudaDeviceReset();
-    if (cudaStatus != cudaSuccess) {
-        fprintf(stderr, "cudaDeviceReset failed!");
-        return 1;
+        cudaStatus = cudaDeviceReset();
+        if (cudaStatus != cudaSuccess) {
+            fprintf(stderr, "cudaDeviceReset failed!");
+            return 1;
+        }
     }
-
     return 0;
 }
 
@@ -186,13 +190,14 @@ cudaError_t solver(float** T, int n, int m)
             goto Error;
         }
     }
+	/*
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < m; j++)
             printf("%.2f ", T[i][j]);
         printf("\n");
     }
-    
+    */
 Error:
     cudaFree(dev_T);
     cudaFree(dev_T_new);

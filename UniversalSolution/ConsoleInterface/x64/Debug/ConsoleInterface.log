@@ -1,0 +1,5 @@
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(505,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+  ConsoleInterface.cpp
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\Utils\utils.h(5,10): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\ConsoleInterface\ConsoleInterface.cpp(34,15): warning C4305: =: усечение из "double" в "float"
+  ConsoleInterface.vcxproj -> C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\x64\Debug\ConsoleInterface.exe

@@ -1,0 +1,4 @@
+﻿  ConsoleInterface.cpp
+ConsoleInterface.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall ThermalConductivityFVM::ThermalConductivityFVM(float * *,int,int)" (??0ThermalConductivityFVM@@QAE@PAPAMHH@Z) в функции _main.
+ConsoleInterface.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: float * * __thiscall ThermalConductivityFVM::run_simulation(int)" (?run_simulation@ThermalConductivityFVM@@QAEPAPAMH@Z) в функции _main.
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\Debug\ConsoleInterface.exe : fatal error LNK1120: неразрешенных внешних элементов: 2

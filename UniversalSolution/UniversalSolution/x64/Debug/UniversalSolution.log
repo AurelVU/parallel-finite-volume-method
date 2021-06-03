@@ -1,0 +1,10 @@
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(505,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+  ThermalConductivityFVM.cpp
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\Utils\utils.h(5,10): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\UniversalSolution\ThermalConductivityFVM.cpp(7,1): warning C4273: run_simulation: несовместимое связывание dll
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\UniversalSolution\ThermalConductivityFVM.h(18,35): message : см. предыдущее определение "run_simulation"
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\UniversalSolution\ThermalConductivityFVM.cpp(22,1): warning C4273: run_simulation_with_MPI: несовместимое связывание dll
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\UniversalSolution\ThermalConductivityFVM.h(19,35): message : см. предыдущее определение "run_simulation_with_MPI"
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\UniversalSolution\ThermalConductivityFVM.cpp(28,12): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     Создается библиотека ..\x64\Debug\UniversalSolution.lib и объект ..\x64\Debug\UniversalSolution.exp
+  UniversalSolution.vcxproj -> C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\x64\Debug\UniversalSolution.dll

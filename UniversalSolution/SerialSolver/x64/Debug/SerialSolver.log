@@ -1,0 +1,8 @@
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(505,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+  Source.cpp
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\Utils\utils.h(5,10): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\SerialSolver\Source.cpp(38,19): warning C4101: cflaxC: неиспользованная локальная переменная
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\SerialSolver\Source.cpp(71,1): warning C4273: serial_solver: несовместимое связывание dll
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\SerialSolver\SerialSolver.h(10,32): message : см. предыдущее определение "serial_solver"
+     Создается библиотека ..\x64\Debug\SerialSolver.lib и объект ..\x64\Debug\SerialSolver.exp
+  SerialSolver.vcxproj -> C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\x64\Debug\SerialSolver.dll

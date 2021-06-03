@@ -1,0 +1,89 @@
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(505,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\CUDASolver>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_WINDLL -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\CUDASolver\kernel.cu" 
+C:/Users/Aurel/Desktop/─шяыюь/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(59): warning : transfer of control bypasses initialization of:
+              variable "gridSize"
+  (72): here
+              variable "blockSize"
+  (73): here
+  
+C:/Users/Aurel/Desktop/─шяыюь/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(64): warning : transfer of control bypasses initialization of:
+              variable "gridSize"
+  (72): here
+              variable "blockSize"
+  (73): here
+  
+C:/Users/Aurel/Desktop/─шяыюь/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(69): warning : transfer of control bypasses initialization of:
+              variable "gridSize"
+  (72): here
+              variable "blockSize"
+  (73): here
+  
+C:/Users/Aurel/Desktop/─шяыюь/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(132): warning : dllexport/dllimport conflict with "cuda_solver"
+  C:\Users\Aurel\Desktop\─шяыюь\parallel-finite-volume-method\UniversalSolution\CUDASolver\CUDASolver.h(10): here; dllexport assumed
+  
+C:/Users/Aurel/Desktop/─шяыюь/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(132): warning : parameter "miniN" was set but never used
+  
+C:/Users/Aurel/Desktop/─шяыюь/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(150): warning : dllexport/dllimport conflict with "isSupportedCUDA"
+  C:\Users\Aurel\Desktop\─шяыюь\parallel-finite-volume-method\UniversalSolution\CUDASolver\CUDASolver.h(11): here; dllexport assumed
+  
+C:/Users/Aurel/Desktop/─шяыюь/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(59): warning : transfer of control bypasses initialization of:
+              variable "gridSize"
+  (72): here
+              variable "blockSize"
+  (73): here
+  
+C:/Users/Aurel/Desktop/─шяыюь/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(64): warning : transfer of control bypasses initialization of:
+              variable "gridSize"
+  (72): here
+              variable "blockSize"
+  (73): here
+  
+C:/Users/Aurel/Desktop/─шяыюь/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(69): warning : transfer of control bypasses initialization of:
+              variable "gridSize"
+  (72): here
+              variable "blockSize"
+  (73): here
+  
+C:/Users/Aurel/Desktop/─шяыюь/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(132): warning : dllexport/dllimport conflict with "cuda_solver"
+  C:\Users\Aurel\Desktop\─шяыюь\parallel-finite-volume-method\UniversalSolution\CUDASolver\CUDASolver.h(10): here; dllexport assumed
+  
+C:/Users/Aurel/Desktop/─шяыюь/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(150): warning : dllexport/dllimport conflict with "isSupportedCUDA"
+  C:\Users\Aurel\Desktop\─шяыюь\parallel-finite-volume-method\UniversalSolution\CUDASolver\CUDASolver.h(11): here; dllexport assumed
+  
+  kernel.cu
+C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\CUDASolver\../Utils/utils.h(5): warning C4305: инициализация: усечение из "double" в "float"
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(124): warning C4533: пропуск инициализации "blockSize" из-за перехода "goto Error"
+  C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(73): note:  см. объявление "blockSize"
+  C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(124): note:  см. объявление "Error"
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(124): warning C4533: пропуск инициализации "gridSize" из-за перехода "goto Error"
+  C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(72): note:  см. объявление "gridSize"
+  C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(124): note:  см. объявление "Error"
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(133): warning C4273: cuda_solver: несовместимое связывание dll
+  C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\CUDASolver\CUDASolver.h(10): note: см. предыдущее определение "cuda_solver"
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(142): warning C4297: cuda_solver: ожидается, что функция не будет выдавать исключения, но она это делает
+  C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(142): note: для функции указан атрибут __declspec(nothrow), throw(), noexcept(true) или noexcept
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(146): warning C4297: cuda_solver: ожидается, что функция не будет выдавать исключения, но она это делает
+  C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(146): note: для функции указан атрибут __declspec(nothrow), throw(), noexcept(true) или noexcept
+C:/Users/Aurel/Desktop/Диплом/parallel-finite-volume-method/UniversalSolution/CUDASolver/kernel.cu(151): warning C4273: isSupportedCUDA: несовместимое связывание dll
+  C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\CUDASolver\CUDASolver.h(11): note: см. предыдущее определение "isSupportedCUDA"
+     Создается библиотека ..\x64\Debug\CUDASolver.lib и объект ..\x64\Debug\CUDASolver.exp
+  CUDASolver.vcxproj -> C:\Users\Aurel\Desktop\Диплом\parallel-finite-volume-method\UniversalSolution\x64\Debug\CUDASolver.dll
